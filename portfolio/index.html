@@ -1,31 +1,75 @@
-<link href="./style.css">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-<div class='split-pane col-xs-12 col-sm-6 uiux-side'>
-  <div>
-    <img src='https://bit.ly/BCR-design'>
-    <div class='text-content'>
-      <div class="bold"> Designer</div>
-      <div class='big'>WANNA SEE MY DESIGNS</div>
-    </div>
-    <button>
-      CLICK HERE
-    </button>
-  </div>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<style>
+body {
+  font-family: Arial;
+  color: white;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: #111;
+}
+
+.right {
+  right: 0;
+  background-color: #1e272e;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+</style>
+</head>
+<body>
+
+<div class="split left">
+  <div class="centered">
+    <h2 style="font-size:16px;">Wanna Look At My Projects</h2>
+<button type="button" class="btn btn-outline-primary" href="./my-projects/">
+<i class="fas fa-code"></i> Click Here</button>
+
+	<style>
+    
+    </style>
+	</div>
 </div>
-<div class='split-pane col-xs-12 col-sm-6 frontend-side'>
-  <div>
-    <img src='https://bit.ly/bcr-dev'>
-    <div class='text-content'>
-      <div class="bold"> Developer</div>
-      <div class='big'>WANNA SEE MY CODE</div>
-    </div>
-    <a class='button'>
-      CLICK HERE
-    </a>
-  </div>
+
+<div class="split right">
+  <div class="centered">
+    <h2 style="font-size:16px;">Wanna Look At My Design</h2>
+	<button type="button" class="btn btn-outline-primary" href="./design/">
+    <i class="fas fa-pencil-ruler"></i>Click Here</button>
+    <style>
+    
+    </style>
+	</div>
 </div>
-<div id='split-pane-or'>
-  <div>
-    <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/74452/bcr-white.png'>
-  </div>
-</div>
+<script src="https://kit.fontawesome.com/a6096c6d16.js" crossorigin="anonymous"></script> 
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html> 
